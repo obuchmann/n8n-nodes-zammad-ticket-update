@@ -31,7 +31,6 @@ export const ticketUpdateDescription: INodeProperties[] = [
 		description:
 			'Ticket to update. Specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
 		default: '',
-		required: false,
 		displayOptions: {
 			show: {
 				resource: ['ticket'],
@@ -47,7 +46,6 @@ export const ticketUpdateDescription: INodeProperties[] = [
 		description:
 			'Group that will own the ticket. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
 		default: '',
-		required: false,
 		displayOptions: {
 			show: {
 				resource: ['ticket'],
@@ -82,7 +80,6 @@ export const ticketUpdateDescription: INodeProperties[] = [
 		description:
 			'New Ticket State',
 		default: '',
-		required: false,
 		// typeOptions: {
 		// 	loadOptionsMethod: 'loadTicketStates',
 		// },
@@ -98,7 +95,6 @@ export const ticketUpdateDescription: INodeProperties[] = [
 		name: 'article',
 		type: 'fixedCollection',
 		placeholder: 'Add Article',
-		required: false,
 		default: {},
 		displayOptions: {
 			show: {
@@ -206,7 +202,7 @@ export const ticketUpdateDescription: INodeProperties[] = [
 						displayName: 'Custom Field',
 						values: [
 							{
-								displayName: 'Field Name',
+								displayName: 'Field Name or ID',
 								name: 'name',
 								type: 'options',
 								typeOptions: {

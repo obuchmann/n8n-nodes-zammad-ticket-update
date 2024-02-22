@@ -1,15 +1,15 @@
 {
   "name": "n8n-nodes-zammad-ticket-update",
   "version": "0.1.0",
-  "description": "",
+  "description": "Adds feature to update Zammad Tickets",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://pc-web.at",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Oliver Buchmann",
+    "email": "o.buchmann@pc-web.at"
   },
   "repository": {
     "type": "git",
