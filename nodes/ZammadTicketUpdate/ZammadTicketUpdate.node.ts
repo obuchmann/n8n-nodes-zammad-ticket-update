@@ -36,8 +36,8 @@ import type {Zammad as ZammadTypes} from './types';
 
 export class ZammadTicketUpdate implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'ZammadTicketUpdate',
-		name: 'zammad_ticket_update',
+		displayName: 'Zammad Ticket update',
+		name: 'ZammadTicketUpdate',
 		icon: 'file:ZammadTicketUpdate.svg',
 		group: ['input'],
 		version: 1,
